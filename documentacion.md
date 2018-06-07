@@ -14,7 +14,7 @@ Luego se realizan los pasos anteriormente mencionados en la segunda imagen. Con 
 
 Los valores de sigma y la distancia mínima entre puntos en el código son más altos que los valores en el ejemplo del libro. Por lo tanto, son menos los puntos que se tienen en cuenta. De esta manera es más fácil evaluar el resultado a simple vista y el tiempo de cómputo es mejor.
 
-El resultado de este algoritmo puede verse en la imagen matching_harris.png en la carpeta resultados.
+El resultado de este algoritmo puede verse en la imagen ``matching_harris.png`` en la carpeta resultados.
 
 
 ## Capítulo 2 ejercicio 2 (ch02-ex1.py)
