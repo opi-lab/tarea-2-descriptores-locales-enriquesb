@@ -14,9 +14,11 @@ Luego se realizan los pasos anteriormente mencionados en la segunda imagen. Con 
 
 Los valores de sigma y la distancia mínima entre puntos en el código son más altos que los valores en el ejemplo del libro. Por lo tanto, son menos los puntos que se tienen en cuenta. De esta manera es más fácil evaluar el resultado a simple vista y el tiempo de cómputo es mejor.
 
-El resultado de este algoritmo puede verse en la imagen ``matching_harris.png`` en la carpeta ``resultados``.
+El resultado de este algoritmo puede verse en la imagen ``ch02-harris-example.png`` en la carpeta ``resultados``.
 
 
 ## Capítulo 2 ejercicio 2 (ch02-ex1.py)
+
+En este código se realiza la misma operación del archivo anteriormente explicado, con la diferencia de que a la hora de hallar las correspondencias de puntos se tendrá en cuenta una distancia máxima entre los puntos. Para esto se utilizaron versiones modificadas de las funciones ``match`` y ``match_twosided``, llamadas ``match_mod`` y ``match_twosided_mod`` respectivamente. El resultado del código con una distancia máxima de 400 pixeles se muestra en la imagen ``ch02-ex1.png`` en la carpeta ``resultados``.
 
 
